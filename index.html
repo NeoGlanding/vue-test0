@@ -15,6 +15,10 @@
         <a v-bind:href="vue">Go To Vue</a>
         <!-- Executing Method in HTML -->
         <h1>{{ brotherName('Andi') }}</h1>
+        <!-- Data Access Check -->
+        <h1>{{ vueName() }}</h1>
+        <!-- Treat Data as HTML -->
+        <h2 v-html="h2Element"></h2>
     </div>
 
     <script src="https://unpkg.com/vue@next"></script>
